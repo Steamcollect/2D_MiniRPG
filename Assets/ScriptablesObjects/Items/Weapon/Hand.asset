@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607f6ac8cee618d458ca1f94b7b304c6, type: 3}
+  m_Name: Hand
+  m_EditorClassIdentifier: 
+  itemName: Hand
+  itemDescription: Hand
+  itemIcone: {fileID: 21300000, guid: 720227fc2ec33be4dabb9c6f1a06d729, type: 3}
+  rarity: 0
+  itemPrefabs: {fileID: 5920760877075993443, guid: 9037d2b827632eb498d3b6eac7102e66, type: 3}
+  itemType: 1
+  isStackable: 0
+  consomableType: 
+  weaponType: 0
+  attackType: 1
+  attackDamage: 0
+  knowbackForce: 100
+  comboMax: 0
+  bulletSpeed: 150
+  dashAtAttack: 0
+  dashAtAttackForce: 0
+  camShakeIntensityAtAttack: 0.5
+  camShakeTimeAtAttack: 0.1
+  weaponPrefabs: {fileID: 6110679624549534989, guid: 4d8f0ff0c7c17db4a977f42b81ae459f, type: 3}
+  bulletPrefabs: {fileID: 5286658726770023369, guid: 5ebbd0f3095e1634cb554986266d85fa, type: 3}
+  equipmentType: 0
+  damageGiven: 0
+  healthGiven: 0

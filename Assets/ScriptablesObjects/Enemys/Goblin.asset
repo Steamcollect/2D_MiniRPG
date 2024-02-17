@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1857d1b940ec0834f86b9f6253d06970, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  moveSpeed: 2
+  strenge: 1
+  power: 1
+  hability: 2
+  weaponCouldBeEquiped:
+  - {fileID: 11400000, guid: b1c28f07110ca0f429ccd5aa15283f0c, type: 2}
+  - {fileID: 11400000, guid: b5f74528833a73147ad6eb9fe9388b41, type: 2}
+  basicWeaponProbaility: {x: 30, y: 100}
+  RareWeaponProbaility: {x: 10, y: 30}
+  EpicWeaponProbaility: {x: 1, y: 10}
+  LegendaryWeaponProbaility: {x: 0.5, y: 4}
+  UniqueWeaponProbaility: {x: 0, y: 0.5}

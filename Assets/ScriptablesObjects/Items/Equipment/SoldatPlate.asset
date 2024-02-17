@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607f6ac8cee618d458ca1f94b7b304c6, type: 3}
+  m_Name: SoldatPlate
+  m_EditorClassIdentifier: 
+  itemName: Plastron de soldat
+  itemDescription: "Plastron de soldat en metal, l\xE9ger et solide !"
+  itemPrefabs: {fileID: 1045493751148239487, guid: 2eae511f848be724a8630e50f9a07c6b, type: 3}
+  itemIcone: {fileID: 1156825750, guid: a4172ed69ef18bc408ae8f006aafcdc8, type: 3}
+  itemType: 2
+  isStackable: 0
+  consomableType: 
+  healthGiven: 0
+  attackDamageGiven: 0
+  weaponType: 0
+  damage: 0
+  comboMax: 0
+  weaponPrefabs: {fileID: 0}
+  equipmentType: 1
+  health: 0

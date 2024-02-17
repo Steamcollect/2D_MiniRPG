@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607f6ac8cee618d458ca1f94b7b304c6, type: 3}
+  m_Name: SoldatSword
+  m_EditorClassIdentifier: 
+  itemName: Epee de soldat
+  itemDescription: "Epee de soldat en metal, l\xE9g\xE8re et solide !"
+  itemIcone: {fileID: -884564951, guid: f591d2fd9ca73d94ba5199098e6569fa, type: 3}
+  itemPrefabs: {fileID: 5920760877075993443, guid: 9037d2b827632eb498d3b6eac7102e66, type: 3}
+  itemType: 1
+  isStackable: 0
+  consomableType: 
+  weaponType: 1
+  attackType: 0
+  attackDamage: 0
+  knowbackForce: 400
+  comboMax: 3
+  bulletSpeed: 0
+  dashAtAttack: 1
+  dashAtAttackForce: 300
+  camShakeIntensityAtAttack: 2
+  camShakeTimeAtAttack: 0.2
+  weaponPrefabs: {fileID: 4853212721045926842, guid: e7bd8ab3a0c488e4a9776c8de9115197, type: 3}
+  bulletPrefabs: {fileID: 0}
+  equipmentType: 0
+  damageGiven: 0
+  healthGiven: 0

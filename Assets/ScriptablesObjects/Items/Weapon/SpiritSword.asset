@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 607f6ac8cee618d458ca1f94b7b304c6, type: 3}
+  m_Name: SpiritSword
+  m_EditorClassIdentifier: 
+  itemName: Epee de l'esprit
+  itemDescription: Une longue epee mysterieuse qui regorge bien des secrets
+  itemIcone: {fileID: -1660774494, guid: 88e4318632f271843bb1039b152a68e5, type: 3}
+  rarity: 3
+  itemPrefabs: {fileID: 617468335435314613, guid: e5768e5609b93104c84bf2710c433798, type: 3}
+  itemType: 1
+  isStackable: 0
+  consomableType: 
+  weaponType: 1
+  attackType: 0
+  currentWeapon: 1
+  attackDamage: 0
+  knowbackForce: 800
+  comboMax: 5
+  bulletSpeed: 0
+  dashAtAttack: 1
+  dashAtAttackForce: 500
+  camShakeIntensityAtAttack: 2.5
+  camShakeTimeAtAttack: 0.2
+  weaponPrefabs: {fileID: 4853212721045926842, guid: 33e61dc8589904947ab2a0c97450c00a, type: 3}
+  bulletPrefabs: {fileID: 0}
+  equipmentType: 0
+  damageGiven: 0
+  healthGiven: 0
