@@ -66,7 +66,7 @@ public class PlayerCombat : MonoBehaviour
         currentAnimationTime = GetCurrentAnimationInfo();
 
         // set the cam shake
-        CameraShake.instance.ShakeCam(currentWeaponData.camShakeIntensityAtAttack, currentWeaponData.camShakeTimeAtAttack);
+        CameraController.ShakeCam(currentWeaponData.camShakeIntensityAtAttack, currentWeaponData.camShakeTimeAtAttack);
 
         currentAttack++;
 
@@ -89,7 +89,7 @@ public class PlayerCombat : MonoBehaviour
             GetCurrentAnimationInfo();
 
             // set the cam shake
-            CameraShake.instance.ShakeCam(currentWeaponData.camShakeIntensityAtAttack, currentWeaponData.camShakeTimeAtAttack);
+            CameraController.ShakeCam(currentWeaponData.camShakeIntensityAtAttack, currentWeaponData.camShakeTimeAtAttack);
 
             // Set the animation of the player and the weapon
             currentWeaponAnimator.SetTrigger("Attack");

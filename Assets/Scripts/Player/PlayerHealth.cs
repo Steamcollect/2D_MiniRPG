@@ -50,7 +50,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damageTaken;
 
-        CameraShake.instance.ShakeCam(4, .3f);
+        CameraController.ShakeCam(4, .3f);
         StartCoroutine(SlowTime());
 
         //transforme position attaquant en angle
